@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer ip="211.117.107.115" id="server-codex-connect-assets" name="Codex Connect Server" security="5" type="3">
+
+  <portsForCrack val="10" />
+  <ports>22, 21, 25</ports>
+  <trace time="10" />
+
+  <adminPass pass="noonewillguessmypassword:D" />
+
+   <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+   <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+</Computer>

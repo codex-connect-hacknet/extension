@@ -1,25 +1,27 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="startingMission">
   <goals>
-    <!-- Goals here -->
+    <goal type="filedownload" target="server-codex-connect-assets" file="SSHCrack.exe" path="bin"/>
+    <goal type="filedownload" target="server-codex-connect-assets" file="SQLBufferOverflow.exe" path="bin"/>
   </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <nextMission>NONE</nextMission>
+  <nextMission>Missions/SecondMission.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
-    <sender>SENDER NAME HERE</sender>
-    <subject>This is an example email for Blank Extension</subject>
-    <body>You should add the body of the email here.
-Multiple lines etc.
+    <sender>Guido Rossum</sender>
+    <subject>Get your tools</subject>
+    <body>As you should know, getting your tools is the fundamental thing to start working on. Go grab some tools that you must need in a server.
+The thing is, I don't know exactly what the ssh password of it is or its IP. I will send you as an attachment a small virtual private server that is related to the server.
+You have to figure it out yourself. Good luck!
 </body>
     <attachments>
-      <!-- Add attachments like links and notes here -->
+      <link comp="hint-server-assets" />
     </attachments>
   </email>
 </mission>

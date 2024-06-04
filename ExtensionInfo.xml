@@ -1,6 +1,6 @@
 <HacknetExtension>
   <!-- Max name length is 128 characters -->
-	<Name>Blank Extension</Name>
+	<Name>Codex Connect</Name>
 	<AllowSaves>true</AllowSaves>
   
   <!-- a coma separated list of notes that start out as being visible-->

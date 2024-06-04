@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hint-server-assets" name="VPS Codex" security="1" icon="chip" type="3">
+
+  <portsForCrack val="0" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+
+   <file path="home" name="README.txt">This is a repo that contains config for the server
+Please check it out! Also, we need to implement .env file to hide the ssh key... It's urgent!
+https://github.com/codex-connect-hacknet/server-assets</file>
+
+</Computer>

@@ -1,0 +1,59 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer ip="211.117.107.115" id="server-codex-connect-assets" name="Codex Connect Server" security="5" type="3">
+
+  <portsForCrack val="10" />
+  <ports>22, 21, 25</ports>
+  <trace time="10" />
+
+  <adminPass pass="noonewillguessmypassword:D" />
+    <file path="config" name="ssh_conn.sh">
+#!/bin/bash
+USER="admin"
+HOSTNAME="server-codex-connect-assets"
+IP="211.117.107.115"
+PORT="2222"
+KEY="noonewillgessmypassword:D"
+
+echo "Connecting to $USER@$HOSTNAME on port $PORT..."
+ssh -i $KEY $USER@$HOSTNAME -p $PORT
+</file>
+
+    <file path="home" name="config.json">
+{
+    "server": {
+        "host": "server-codex-connect-assets",
+        "ip": "211.117.107.115",
+        "port": 46591,
+        "username": "admin",
+        "ssh_key_path": "noonewillguessmypassword:D"
+    },
+    "database": {
+        "type": "postgresql",
+        "host": "dbhost.example.net",
+        "port": 5432,
+        "username": "dbuser",
+        "password": "securepassword",
+        "database_name": "codexdb"
+    },
+    "logging": {
+        "level": "info",
+        "file": "log/server_config.log"
+    },
+    "services": {
+        "web_server": {
+            "enabled": true,
+            "port": 8080
+        },
+        "api_server": {
+            "enabled": true,
+            "port": 9090
+        }
+    }
+}
+</file>
+
+
+   <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+   <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+</Computer>

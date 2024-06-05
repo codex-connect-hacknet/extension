@@ -1,43 +1,9 @@
 Errors Found. Writing report to Extensions/codex_connect/report.txt
+Error Loading Mission: Extensions/codex_connect/Missions\ExampleMission.xml
 
-Load Error:
-System.NullReferenceException 
+Error loading mission Goal "filedeletion" 
+NullReferenceException - this means something referenced by an ID (probably a computer) or
+a filename (missions/scripts etc) was not found.
  
-Faction introfacnot found for setFaction action! 
- 
-Source : Hacknet 
- 
-System.NullReferenceException: Faction introfacnot found for setFaction action! 
-   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
-   at Hacknet.SARunFunction.Trigger(Object os_obj) 
-   at Hacknet.RunnableConditionalActions.Update(Single dt, Object os) 
-   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
-   at Hacknet.Extensions.ExtensionLoader.LoadNewExtensionSession(ExtensionInfo info, Object
-   os_obj)
+Source : Hacknet  ::  System.FormatException
 
-   at Hacknet.OS.LoadContent() 
-   at Hacknet.ScreenManager.AddScreen(GameScreen screen, Nullable`1 controllingPlayer) 
-   at Hacknet.ScreenManager.AddScreen(GameScreen screen) 
-   at Hacknet.Misc.ExtensionTests.SetupOSForTests(String ActiveExtensionFoldername,
-   ScreenManager screenMan)
-
-   at Hacknet.Misc.ExtensionTests.TestExtensionForRuntime(ScreenManager screenMan, String
-   path, Int32& errorsAdded)
- 
- 
- 
-   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
-   at Hacknet.SARunFunction.Trigger(Object os_obj) 
-   at Hacknet.RunnableConditionalActions.Update(Single dt, Object os) 
-   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
-   at Hacknet.Extensions.ExtensionLoader.LoadNewExtensionSession(ExtensionInfo info, Object
-   os_obj)
-
-   at Hacknet.OS.LoadContent() 
-   at Hacknet.ScreenManager.AddScreen(GameScreen screen, Nullable`1 controllingPlayer) 
-   at Hacknet.ScreenManager.AddScreen(GameScreen screen) 
-   at Hacknet.Misc.ExtensionTests.SetupOSForTests(String ActiveExtensionFoldername,
-   ScreenManager screenMan)
-
-   at Hacknet.Misc.ExtensionTests.TestExtensionForRuntime(ScreenManager screenMan, String
-   path, Int32& errorsAdded)

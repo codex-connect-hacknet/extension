@@ -3,7 +3,6 @@
   <goals>
       <goal type="fileupload" target="bank-stagingarea" file="db_conn.cs" path="home" destTarget="codex_contract_listing_upload" destPath="Drop/Uploads"/>
   </goals>
-  <missionEnd val="1">addRank</missionEnd>
   <nextMission>Missions\codex_contract\bank\BankBugMission2.xml</nextMission>
   <posting title="Bank.NET Bug">
 There is a vulnerability in bank plataform Bank.NET

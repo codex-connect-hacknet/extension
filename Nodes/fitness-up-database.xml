@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="fitness-up-database" name="Fitness Up Database" ip="203.120.56.78" security="1" type="4">
+
+  <portsForCrack val="1" />
+  <ports>1433</ports>
+  <trace time="-1" />
+    <firewall level="3" solution="root" additionalTime="0.3"/>
+
+<file path="home" name="database.sql">
+#BINARY#
+</file>
+
+<file path="home" name="data.json">
+{
+    "users": [
+        {
+            "name":"John Doe","month_value":"15"
+        },
+        {
+            "name":"Jane Smith","month_value":"22"
+        },
+        {
+            "name":"Mike Mentzer","month_value":"30"
+        },
+        {
+            "name":"Bob Brown","month_value":"27"
+        }
+    ]
+}
+
+</file>
+</Computer>

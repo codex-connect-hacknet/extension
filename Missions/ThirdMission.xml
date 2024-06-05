@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission">
+  <goals>
+    <goal type="filechange" target="fitness-up-database" file="data.json" path="home" keyword="0"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/ThirdMission.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Guido Rossum</sender>
+    <subject>Gym Memberhip(1)</subject>
+    <body>Did you really get the database password so quickly? It must be easy for you, no? As i know, in the database connection file, you got the ip address of where the database is located.
+Ok, so change the data from a guy called "Mike Mentzer" and change the month_value to "0". I think I don't need to say this to you, but just in case, use the replace command to change the content of a file. I suppose they store the data in json format.
+Thanks.
+</body>
+    <attachments>
+      
+    </attachments>
+  </email>
+</mission>

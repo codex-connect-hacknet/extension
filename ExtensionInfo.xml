@@ -26,7 +26,7 @@ Edit this with your own extension info and start building!</Description>
   <!-- this makes the extension start with the standard restart bootup sequence -->
   <HasIntroStartup>false</HasIntroStartup>
   
-  <StartingTheme>Themes/ExampleTheme.xml</StartingTheme>
+  <StartingTheme>HacknetBlue</StartingTheme>
   <!-- 
   Base Themes are named:
   TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint

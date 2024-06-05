@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="testContractMission1">
+  <goals>
+      <goal type="fileupload" target="bank-stagingarea" file="db_conn.cs" path="home" destTarget="codex_contract_listing_upload" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Bank.NET Bug">
+There is a vulnerability in bank plataform Bank.NET
+Try to discover and fix it.
+  </posting>
+  <email>
+    <sender>Codex Connect Hub Services</sender>
+    <subject>Bank.NET Bug</subject>
+    <body>Hey #PLAYERNAME#!
+There is a vulnerability in bank plataform Bank.NET and we want you to fix it.
+Please, try to discover and fix it. By the way, i almost forgot, before you actually fix it, can you please upload the database connection of Bank.NET in our dedicated upload files and reply me when you have done it? Thanks!.
+
+Best regards,
+Codex Connect Hub Services
+    </body>
+    <attachments>
+      <link comp="codex_contract_listing_upload" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer ip="96.163.18.237" id="GosTekSystemsMail" name="GosTekSystems Mail" security="5" type="3">
+
+  <portsForCrack val="10" />
+  <ports>22, 21, 25</ports>
+  <trace time="10" />
+
+
+    <account username="Alexei Smirnov" password="smirnov" type="2" />
+
+<mailServer name="GosTekSystems Server" color="50,237,212" generateJunk="true">
+
+    <email recipient="Alexei Smirnov" sender="RussTek" subject="Database Connection">
+Hey, Alexei. I don't have a database connection because the file is encrypted.
+
+Anyway, you can get that file if you can decrypt it.
+
+Here is the IP address where the file is located: 160.233.49.119
+As you already have an account, your username should be literally alexei and password smirnov.
+Have a nice day!
+    </email>
+  </mailServer>
+
+</Computer>

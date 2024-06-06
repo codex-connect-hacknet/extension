@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="testContractMission2">
+  <goals>
+      
+      <goal type="clearfolder" target="russteksetdb" path="sys"/>
+      <goal type="clearfolder" target="russtekprivatedb" path="sys"/>
+      <goal type="fileupload" target="russtekprivatedb" file="database.env" path="home" destTarget="codex_contract_listing_upload" destPath="Drop/Uploads"/>
+      <goal type="fileupload" target="russtekprivatedb" file="token.env" path="home" destTarget="codex_contract_listing_upload" destPath="Drop/Uploads"/>
+      <goal type="fileupload" target="russtekprivatedb" file="api.env" path="home" destTarget="codex_contract_listing_upload" destPath="Drop/Uploads"/>
+      <goal type="fileupload" target="russtekprivatedb" file="misc.env" path="home" destTarget="codex_contract_listing_upload" destPath="Drop/Uploads"/>
+      
+  </goals>
+  <missionStart val="0">setFaction:startingfac</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Infiltration">
+Infiltrate by faking agency and access a Russian Government Company.
+  </posting>
+  <email>
+    <sender>Codex Connect Hub Services</sender>
+    <subject>Infiltration</subject>
+    <body>Hey #PLAYERNAME#!
+I am writing to brief you on a critical mission that involves infiltrating a Russian government company by faking an agency. The objective is to gain access to sensitive information that could be pivotal for our operations. In our team, we had a expert guy and he Infiltrated as Alexei Smirnov, altought he was arrested by being accused as pedophile. So i want you to get into his account and read the e-mails.
+
+Download and upload into our upload server with every info of "RussTek". They always store information with .env extension file. Also delete every sys  of every "RussTek" related private servers possible. 
+
+Best regards,
+Codex Connect Hub Services
+    </body>
+    <attachments>
+      <link comp="GosTekSystemsMail" />
+      <link comp="codex_contract_listing_upload" />
+      <account comp="GosTekSystemsMail" user="Alexei Smirnov" pass="smirnov" />
+    </attachments>
+  </email>
+</mission>

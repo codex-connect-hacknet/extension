@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bank-privatedev" ip="12.169.91.135" name="Bank Private Dev" security="1" type="3">
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 25, 1433</ports>
+  <trace time="60" />
+    <dlink target="chrisbrown" />
+    <dlink target="emilyjones" />
+    <dlink target="janewilliams" />
+    <dlink target="johnsmith" />
+    <dlink target="chrisjones " />
+    <dlink target="bank-stagingarea" />
+
+</Computer>

@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission">
+  <goals>
+    
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Bjarne</sender>
+    <subject>Invitation</subject>
+    <body>Congratulations on reaching here! I sent you a contract listing as an attachment. Reply this email when you are done.
+Have a nice day!
+</body>
+    <attachments>
+      <link comp="codex_contract_listing" />
+      <account comp="codex_contract_listing" user="#PLAYERNAME#" pass="#PLAYER_ACCOUNT_PASSWORD#" />
+    </attachments>
+  </email>
+</mission>

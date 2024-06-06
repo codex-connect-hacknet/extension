@@ -1,65 +1,9 @@
-Errors Found. Writing report to Extensions/Codex Connext/report.txt
+Errors Found. Writing report to Extensions/codex_connect/report.txt
+Error Loading Mission: Extensions/codex_connect/Missions\ExampleMission.xml
 
-Load Error:
-System.NullReferenceException 
+Error loading mission Goal "filedeletion" 
+NullReferenceException - this means something referenced by an ID (probably a computer) or
+a filename (missions/scripts etc) was not found.
  
-Faction introfacnot found for setFaction action! 
- 
-Source : Hacknet 
- 
-System.NullReferenceException: Faction introfacnot found for setFaction action!
-  at Hacknet.MissionFunctions.runCommand (Int32 value, System.String name) [0x00000] in
-  <filename unknown>:0
+Source : Hacknet  ::  System.FormatException
 
-  at Hacknet.SARunFunction.Trigger (System.Object os_obj) [0x00000] in <filename unknown>:0 
-  at Hacknet.RunnableConditionalActions.Update (Single dt, System.Object os) [0x00000] in
-  <filename unknown>:0
-
-  at Hacknet.RunnableConditionalActions.LoadIntoOS (System.String filepath, System.Object
-  OSobj) [0x00000] in <filename unknown>:0
-
-  at Hacknet.Extensions.ExtensionLoader.LoadNewExtensionSession
-  (Hacknet.Extensions.ExtensionInfo info, System.Object os_obj) [0x00000] in <filename
-  unknown>:0
-
-  at Hacknet.OS.LoadContent () [0x00000] in <filename unknown>:0 
-  at Hacknet.ScreenManager.AddScreen (Hacknet.GameScreen screen, Nullable`1
-  controllingPlayer) [0x00000] in <filename unknown>:0
-
-  at Hacknet.ScreenManager.AddScreen (Hacknet.GameScreen screen) [0x00000] in <filename
-  unknown>:0
-
-  at Hacknet.Misc.ExtensionTests.SetupOSForTests (System.String ActiveExtensionFoldername,
-  Hacknet.ScreenManager screenMan) [0x00000] in <filename unknown>:0
-
-  at Hacknet.Misc.ExtensionTests.TestExtensionForRuntime (Hacknet.ScreenManager screenMan,
-  System.String path, System.Int32& errorsAdded) [0x00000] in <filename unknown>:0
- 
- 
- 
-  at Hacknet.MissionFunctions.runCommand (Int32 value, System.String name) [0x00000] in
-  <filename unknown>:0
-
-  at Hacknet.SARunFunction.Trigger (System.Object os_obj) [0x00000] in <filename unknown>:0 
-  at Hacknet.RunnableConditionalActions.Update (Single dt, System.Object os) [0x00000] in
-  <filename unknown>:0
-
-  at Hacknet.RunnableConditionalActions.LoadIntoOS (System.String filepath, System.Object
-  OSobj) [0x00000] in <filename unknown>:0
-
-  at Hacknet.Extensions.ExtensionLoader.LoadNewExtensionSession
-  (Hacknet.Extensions.ExtensionInfo info, System.Object os_obj) [0x00000] in <filename
-  unknown>:0
-
-  at Hacknet.OS.LoadContent () [0x00000] in <filename unknown>:0 
-  at Hacknet.ScreenManager.AddScreen (Hacknet.GameScreen screen, Nullable`1
-  controllingPlayer) [0x00000] in <filename unknown>:0
-
-  at Hacknet.ScreenManager.AddScreen (Hacknet.GameScreen screen) [0x00000] in <filename
-  unknown>:0
-
-  at Hacknet.Misc.ExtensionTests.SetupOSForTests (System.String ActiveExtensionFoldername,
-  Hacknet.ScreenManager screenMan) [0x00000] in <filename unknown>:0
-
-  at Hacknet.Misc.ExtensionTests.TestExtensionForRuntime (Hacknet.ScreenManager screenMan,
-  System.String path, System.Int32& errorsAdded) [0x00000] in <filename unknown>:0

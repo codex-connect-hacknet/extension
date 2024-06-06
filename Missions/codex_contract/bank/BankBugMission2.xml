@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="testContractMission1">
   <goals>
-      <goal type="filechange" target="banknetserver" file="withdraw.js" path="home" keyword="return 0"/>
+      <goal type="filechange" target="banknetserver" file="withdraw.js" path="home" keyword="0"/>
   </goals>
   <missionStart val="0">setFaction:startingfac</missionStart>
   <missionEnd val="1">addRank</missionEnd>

@@ -20,6 +20,8 @@ Codex Connect Hub Services
     </body>
     <attachments>
       <link comp="codex_contract_listing_upload" />
+      <note title="Bank NET Repo">https://github.com/codex-connect-hacknet/banknet
+      </note>
     </attachments>
   </email>
 </mission>

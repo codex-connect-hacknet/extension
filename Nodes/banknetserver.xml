@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="banknetserver" ip="45.55.54.249" name="Bank.NET Server" security="1" type="3">
+<Computer id="banknetserver" ip="45.55.54.249" name="Bank.NET Server" security="2" type="3">
 
   <portsForCrack val="2" />
   <ports>22, 21, 25, 1433</ports>

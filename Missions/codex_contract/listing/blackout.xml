@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="testContractMission3">
+  <goals>
+  </goals>
+  <missionStart val="0">setFaction:startingfac</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Operation Blackout">
+This operation is focused on dismantling a dangerous network involved in criminal activities.
+  </posting>
+  <email>
+    <sender>Codex Connect Hub Services</sender>
+    <subject>Operation Blackout</subject>
+    <body>Hey #PLAYERNAME#!
+As part of our critical mission to dismantle a dangerous network involved in criminal activities, we need to take immediate and comprehensive action to eliminate all traces of this network. Additionally, I need you to upload a text file called "ADDRESS_BLACKOUT.TXT" that is located somewhere on that network, it contains the address of the main server of the network. This should be a simple task for you.
+
+Best regards,
+Codex Connect Hub Services
+    </body>
+    <attachments>
+      <link comp="twix01" />
+    </attachments>
+  </email>
+</mission>

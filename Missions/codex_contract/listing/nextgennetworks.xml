@@ -1,8 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="testContractMission4">
   <goals>
+        <goal type="fileupload" target="laravelnextgen" file="database.sqlite" path="home" destTarget="codex_contract_listing_upload" destPath="Drop/Uploads"/>
+
   </goals>
-  <missionStart val="0">setFaction:startingfac</missionStart>
+  <missionStart val="1">loadConditionalActions:Actions/nextgenact.xml</missionStart>
   <missionEnd val="1">addRank</missionEnd>
   <nextMission>NONE</nextMission>
   <posting title="Inexistent DB">
@@ -14,11 +16,14 @@ A mysterious database has been missing for months. Many obstacles have appeared,
     <body>Hey #PLAYERNAME#!
 The objective is to locate and retrieve a file named database.sqlite. This file is critical to our operations, and its recovery is of the utmost importance.
 Conduct a thorough search across all our systems, servers, and backup locations for any tips to get that file.
-According to an Itallian ex-worker Callisto Antonello of NextGen Networks, this file might be hidden deep within our systems. We need to be thorough in our search and leave no stone unturned.
+According to an Itallian ex-worker Callisto Antonello of NextGen Networks, this file might be hidden deep within our systems. Please upload database.sqlite.
 Best regards,
 Codex Connect Hub Services
     </body>
     <attachments>
+      <link comp="codex_contract_listing_upload" />
+      <link comp="server-codex-connect-assets" />
+      <account comp="server-codex-connect-assets" user="admin" pass="noonewillguessmypassword:D" />
       <link comp="CallistoAntonello@nextgen" />
     </attachments>
   </email>

@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer ip="96.97.97.118" id="nextgenmailserver" name="NextGen Mail" security="5" type="3">
+
+  <portsForCrack val="10312" />
+  <ports>22, 21, 25</ports>
+  <trace time="10" />
+
+
+    <account username="callisto@nextgen.com" password="escallian" type="2" />
+
+<mailServer name="NextGen Server" color="50,237,212" generateJunk="true">
+
+    <email recipient="callisto@nextgen.com" sender="Markus" subject="SQLITE">
+Hey, Callisto. I don't have the database file. Please ask someone else.
+Have a nice day!
+    </email>
+    <email recipient="callisto@nextgen.com" sender="Elden CooKe" subject="SQLITE">
+I have no idea what are u talking about, im sorry, maybe another person may have it
+    </email>
+     <email recipient="callisto@nextgen.com" sender="Eddie" subject="SQLITE">
+Yes, I had it, but unfortunately, I don't have it anymore. If you could help me recover it, that would be amazing! This is where I had my SQLite file:
+230.237.74.165
+
+By the way, I'm not sure if that's the right PC, but I'm certain it's related to that PC.
+    </email>
+    <email recipient="callisto@nextgen.com" sender="Xing Muah" subject="SQLITE">
+I do not have it, but i know who had it. Check out Eddie
+See you later!
+    </email>
+  </mailServer>
+
+</Computer>

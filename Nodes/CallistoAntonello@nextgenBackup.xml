@@ -7,7 +7,7 @@
   <adminPass pass="honeypot" />
   <file path="bin" name="arp-scan.exe">#EOS_SCANNER_EXE#</file>
   <eosDevice name="REDMI 91XI3K" id="root" icon="ePhone2" passOverride="root">
-        <note>TestNote</note>
-        <mail username="test@jmail.com" pass="thisIstheaccountpass" />
+        <note>My own email server that i configured for nextgen networks: https://github.com/codex-connect-hacknet/mail-nextgen</note>
+        <mail username="callisto@nextgen.com" pass="escallian" />
   </eosDevice>
 </Computer>

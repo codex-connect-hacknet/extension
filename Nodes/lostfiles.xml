@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lostfiles" ip="21.230.78.225" name="Lost Files" security="4" icon="tablet" type="3">
+
+  <portsForCrack val="22121" />
+  <ports>22, 21, 25, 1433</ports>
+  <tracker/>
+  <trace time="1" />
+    <adminPass pass="passwoerd" />
+     <file path="home" name="ipofdatabaseconnection.txt">https://github.com/codex-connect-hacknet/NextGen-Networks/blob/master/.env.example/</file>
+</Computer>

@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="laravelnextgen" ip="105.241.218.131" name="Laravel Database NextGen" security="6" type="3">
+
+  <portsForCrack val="1" />
+  <ports>1433</ports>
+  <portRemap>1433=3306</portRemap>
+  <firewall level="7" solution="app" additionalTime="0.5"/>
+  <tracker/>
+  <trace time="40" />
+    <adminPass pass="6977799083" />
+     <file path="home" name="database.sqlite">#BINARY#</file>
+</Computer>

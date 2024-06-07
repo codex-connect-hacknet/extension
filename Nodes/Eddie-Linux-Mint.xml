@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Eddie-Linux-Mint" name="Eddie-Linux-Mint" security="1" icon="laptop" type="empty">
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 25, 1433</ports>
+  <trace time="50" />
+
+</Computer>

@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CallistoAntonello@nextgen" name="CallistoAntonello@nextgen" type="1" icon="tablet">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25</ports>
+  <trace time="60" />
+
+  <dlink target="CallistoAntonello@nextgenBackup" />
+</Computer>

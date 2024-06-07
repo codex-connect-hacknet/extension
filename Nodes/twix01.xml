@@ -4,7 +4,7 @@
           id="twix01" 
           name="Twix" 
           security="0"
-          icon="laptop" 
+          icon="chip" 
           type="1" > 
 
 <tracker />

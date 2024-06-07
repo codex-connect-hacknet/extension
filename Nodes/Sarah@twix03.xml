@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="Sarah@twix03" name="Sarah@twix03" type="empty">
+<Computer id="Sarah@twix03" name="Sarah@twix03" icon="laptop" type="empty">
 
   <portsForCrack val="3" />
   <ports>22, 21, 25</ports>

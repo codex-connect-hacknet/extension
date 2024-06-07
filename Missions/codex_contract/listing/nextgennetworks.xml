@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="testContractMission4">
+  <goals>
+  </goals>
+  <missionStart val="0">setFaction:startingfac</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Inexistent DB">
+A mysterious database has been missing for months. Many obstacles have appeared, and no one has been able to find it yet.
+  </posting>
+  <email>
+    <sender>Codex Connect Hub Services</sender>
+    <subject>Inexsistent DB</subject>
+    <body>Hey #PLAYERNAME#!
+The objective is to locate and retrieve a file named database.sqlite. This file is critical to our operations, and its recovery is of the utmost importance.
+Conduct a thorough search across all our systems, servers, and backup locations for any tips to get that file.
+According to an Itallian ex-worker Callisto Antonello of NextGen Networks, this file might be hidden deep within our systems. We need to be thorough in our search and leave no stone unturned.
+Best regards,
+Codex Connect Hub Services
+    </body>
+    <attachments>
+      <link comp="CallistoAntonello@nextgen" />
+    </attachments>
+  </email>
+</mission>

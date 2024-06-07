@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Karl@twix01" name="Karl@twix01" type="empty" icon="laptop">
+
+  <portsForCrack val="2" />
+  <ports>22,  25</ports>
+  <trace time="-1" />
+<file path="bin" name="FTP_Catch.exe">#FTP_CRACK#</file>
+  
+</Computer>

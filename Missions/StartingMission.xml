@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="startingMission">
   <goals>
-    <goal type="filedownload" target="server-codex-connect-assets" file="SSHCrack.exe" path="bin"/>
+    <goal type="filedownload" target="server-codex-connect-assets" file="SSH_Script.exe" path="bin"/>
     <goal type="filedownload" target="server-codex-connect-assets" file="SQLBufferOverflow.exe" path="bin"/>
   </goals>
   <!-- 

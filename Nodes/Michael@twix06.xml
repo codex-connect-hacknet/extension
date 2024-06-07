@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Michael@twix06" name="Michael@twix06" icon="laptop" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+
+  <file path="home" name="ADDRESS_BLACKOUT.pdf">#BINARY#</file>
+  
+</Computer>

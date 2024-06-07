@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer 
+          ip="89.62.126.106"
+          id="twix01" 
+          name="Twix" 
+          security="0"
+          icon="chip" 
+          type="1" > 
+
+<tracker />
+<adminPass pass="honeypot"/>
+<dlink target="Karl@twix01" />
+<dlink target="David@twix02" />
+<dlink target="Sarah@twix03" />
+<dlink target="Laura@twix04" />
+<dlink target="Chris@twix05" />
+<dlink target="Michael@twix06" />
+<dlink target="Jane@twix07" />
+<dlink target="Lopez@twix08" />
+<dlink target="Jack@twix09" />
+<dlink target="Pablo@twix10" />
+<file path="bin" name="SMTP_Checker.exe">#SMTP_CRACK#</file>
+</Computer>

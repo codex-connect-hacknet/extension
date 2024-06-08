@@ -3,7 +3,7 @@
   <goals>
         <goal type="fileupload" target="Michael@twix06" file="ADDRESS_BLACKOUT.pdf" path="home" destTarget="codex_contract_listing_upload" destPath="Drop/Uploads"/>
   </goals>
-  <missionStart val="0">setFaction:startingfac</missionStart>
+  <missionStart val="0">loadConditionalActions:Actions/flagmission2.xml</missionStart>
   <missionEnd val="1">addRank</missionEnd>
   <nextMission>NONE</nextMission>
   <posting title="Operation Blackout">

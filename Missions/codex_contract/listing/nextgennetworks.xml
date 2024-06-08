@@ -4,7 +4,7 @@
         <goal type="fileupload" target="laravelnextgen" file="database.sqlite" path="home" destTarget="codex_contract_listing_upload" destPath="Drop/Uploads"/>
 
   </goals>
-  <missionStart val="1">loadConditionalActions:Actions/nextgenact.xml</missionStart>
+  <missionStart val="0">loadConditionalActions:Actions/flagmission6.xml</missionStart>
   <missionEnd val="1">addRank</missionEnd>
   <nextMission>NONE</nextMission>
   <posting title="Inexistent DB">

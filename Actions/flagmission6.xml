@@ -1,0 +1,11 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <RunFunction FunctionName="addFlags:mission6"/>
+     <AddAsset FileName="SMTP_Checker.exe" FileContents="#SMTP_CRACK#" TargetComp="server-codex-connect-assets" TargetFolderpath="bin" />
+    <AddAsset FileName="FTP_Access.exe" FileContents="#FTP_CRACK#" TargetComp="server-codex-connect-assets" TargetFolderpath="bin" />
+    <AddAsset FileName="SQLInjection.exe" FileContents="#SQL_CRACK#" TargetComp="server-codex-connect-assets" TargetFolderpath="bin" />
+    <RunFunction FunctionName="setAssetServer:server-codex-connect-assets" /> 
+  </Instantly>
+
+</ConditionalActions>

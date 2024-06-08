@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer ip="5.157.220.23" id="Kenton" name="Kenton@Valve" security="3" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25</ports>
+  <firewall level="2" solution="life" additionalTime="0.1"/>
+  <trace time="60" />
+  <dlink target="Micky"/>
+  <dlink target="Kaiden"/>
+  
+</Computer>

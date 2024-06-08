@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="testContractMission5">
+  <goals>
+      
+      <goal type="clearfolder" target="sectoolsorg" path="MsgBoard/listings"/>
+    
+      
+  </goals>
+  <missionStart val="0">setFaction:startingfac</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="IP Lookup">
+Find IP by domain and remove it.
+  </posting>
+  <email>
+    <sender>Codex Connect Hub Services</sender>
+    <subject>IP Lookup</subject>
+    <body>Hey #PLAYERNAME#!
+You need to find the IP address for the domain "sectools.org". Try to ping it or use the host command on your current system. After you get the IP address, delete all listing documents. We need to remove them because they will change the domain's IP, so remove it!
+Best regards,
+Codex Connect Hub Services
+    </body>
+    <attachments>
+      <note title="sectools.org">In your actual terminal, use host "nameofdomain"</note>
+    </attachments>
+  </email>
+</mission>

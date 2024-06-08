@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="news03">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Nessus">Nessus is a widely used vulnerability scanner developed by Tenable, Inc. It helps identify vulnerabilities, configuration issues, and compliance violations in networks, systems, and applications.
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

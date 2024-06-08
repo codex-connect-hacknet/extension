@@ -2,6 +2,7 @@
   
   <Instantly>
     <AddAsset FileName="RTSPCrack.exe" FileContents="#RTSP_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+    <RunFunction FunctionName="setAssetServer:server-codex-connect-assets" /> 
     <RunFunction FunctionName="setFaction:startingfac" FunctionValue="0" />
     
   </Instantly>

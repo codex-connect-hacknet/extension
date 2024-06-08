@@ -3,7 +3,7 @@
   <goals>
       <goal type="filechange" target="banknetserver" file="withdraw.js" path="home" keyword="0"/>
   </goals>
-  <missionStart val="0">setFaction:startingfac</missionStart>
+  <missionStart val="0">loadConditionalActions:Actions/flagmission1.xml</missionStart>
   <missionEnd val="1">addRank</missionEnd>
   <nextMission>NONE</nextMission>
   <email>

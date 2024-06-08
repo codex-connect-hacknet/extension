@@ -6,7 +6,7 @@
     
       
   </goals>
-  <missionStart val="0">setFaction:startingfac</missionStart>
+  <missionStart val="0">loadConditionalActions:Actions/flagmission3.xml</missionStart>
   <missionEnd val="1">addRank</missionEnd>
   <nextMission>NONE</nextMission>
   <posting title="IP Lookup">

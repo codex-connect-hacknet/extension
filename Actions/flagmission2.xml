@@ -1,0 +1,7 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <RunFunction FunctionName="addFlags:mission2"/>
+  </Instantly>
+
+</ConditionalActions>

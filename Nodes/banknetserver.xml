@@ -19,5 +19,10 @@ function validateInput() {
 }
   
 </file>
+<file path="home" name="githubissue.txt">
+https://github.com/codex-connect-hacknet/banknetserver/issues/1
+  
+</file>
+
 
 </Computer>

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer ip="23.220.155.92" id="valvecorp" name="Valve Corporation" icon="chip" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+  <tracker/>
+  <adminPass pass="honeypot"/>
+  <eosDevice name="Matt's ePhone 4S" id="eosIntro" icon="ePhone2" empty="true" passOverride="root">
+    <note>Leak of HALF FUCKING LIFE 3!! I stored in secret_revese_ip.txt</note>
+    
+    <!-- It's important to keep everything in your files organized - so let's leave some space between tags -->
+    
+    <file path="eos/test" name="secret_revese_ip.txt">Connect to that 23.220.157.5 but reversed :D</file>
+  </eosDevice>
+  
+</Computer>

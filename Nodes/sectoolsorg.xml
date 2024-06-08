@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer ip="50.116.1.184" id="sectoolsorg" name="Sec Tools Org" type="empty">
+<Computer ip="50.116.1.184" id="sectoolsorg" name="Sec Tools Org" icon="chip" type="empty">
 
   <portsForCrack val="3" />
   <ports>22, 21, 25</ports>

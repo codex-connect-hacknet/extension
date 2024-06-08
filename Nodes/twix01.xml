@@ -6,7 +6,7 @@
           security="0"
           icon="chip" 
           type="1" > 
-
+<trace time="15"/>
 <tracker />
 <adminPass pass="honeypot"/>
 <dlink target="Karl@twix01" />

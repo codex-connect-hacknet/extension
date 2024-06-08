@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+  <Instantly>
+    
+    <RunFunction FunctionName="setHubServer:codex_contract_listing" /> 
+  </Instantly>
+
+</ConditionalActions>

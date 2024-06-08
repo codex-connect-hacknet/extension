@@ -4,6 +4,7 @@
   <portsForCrack val="3" />
   <ports>22, 21, 25</ports>
   <trace time="-1" />
+  <tracker/>
   <adminPass pass="honeypot"/>
   <eosDevice name="Matt's ePhone 4S" id="eosIntro" icon="ePhone2" empty="true" passOverride="root">
     <note>Leak of HALF FUCKING LIFE 3!! I stored in secret_revese_ip.txt</note>

@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="news02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Metasploit">
+
+Metasploit took the security world by storm when it was released in 2004. It is an advanced open-source platform for developing, testing, and using exploit code. The extensible model through which payloads, encoders, no-op generators, and exploits can be integrated has made it possible to use the Metasploit Framework as an outlet for cutting-edge exploitation research. It ships with hundreds of exploits, as you can see in their list of modules. This makes writing your own exploits easier, and it certainly beats scouring the darkest corners of the Internet for illicit shellcode of dubious quality. One free extra is Metasploitable, an intentionally insecure Linux virtual machine you can use for testing Metasploit and other exploitation tools without hitting live servers.
+
+Metasploit was completely free, but the project was acquired by Rapid7 in 2009 and it soon sprouted commercial variants. The Framework itself is still free and open source, but they now also offer a free-but-limited Community edition, a more advanced Express edition ($5,000 per year per user), and a full-featured Pro edition. Other paid exploitation tools to consider are Core Impact (more expensive) and Canvas (less).
+
+The Metasploit Framework now includes an official Java-based GUI and also Raphael Mudge's excellent Armitage. The Community, Express, and Pro editions have web-based GUIs.
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

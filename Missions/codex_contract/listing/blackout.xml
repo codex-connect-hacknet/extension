@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="testContractMission3">
+  <goals>
+        <goal type="fileupload" target="Michael@twix06" file="ADDRESS_BLACKOUT.pdf" path="home" destTarget="codex_contract_listing_upload" destPath="Drop/Uploads"/>
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/flagmission2.xml</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Operation Blackout">
+This operation is focused on dismantling a dangerous network involved in criminal activities.
+  </posting>
+  <email>
+    <sender>Codex Connect Hub Services</sender>
+    <subject>Operation Blackout</subject>
+    <body>Hey #PLAYERNAME#!
+As part of our critical mission to dismantle a dangerous network involved in criminal activities, we need to take immediate and comprehensive action to eliminate all traces of this network. Additionally, I need you to upload a pdf file called "ADDRESS_BLACKOUT.pdf" that is located somewhere on that network, it contains the address of the main server of the network. This should be a simple task for you.
+
+Best regards,
+Codex Connect Hub Services
+    </body>
+    <attachments>
+      <link comp="twix01" />
+      <link comp="codex_contract_listing_upload" />
+    </attachments>
+  </email>
+</mission>

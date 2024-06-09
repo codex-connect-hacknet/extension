@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission">
+  <goals>
+    <goal type="getstring" target="IgN7lSkvxizlP2lU8r5uaTjRILCSnR" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/codex_contract/InvitationMission.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Guido Rossum</sender>
+    <subject>Pre-Invitation</subject>
+    <body>That was amazing, i never thought that you could do these things so easily, your skills are amazing, and you can do so much with that.
+I present you with an invitation to a private team called Codex Connect, they only get the best people to do tasks. But before going in, you must create a pull request in our GitHub repository.
+You must store your name on variable in precodex.sh and show your name in terminal
+I will send you a note on how to do it.
+Good luck!
+</body>
+    <attachments>
+      <note title="Github REPO">https://github.com/codex-connect-hacknet/pre-codex-inv
+Read the readme, add your name in precodex.sh bash script.
+</note>
+    </attachments>
+  </email>
+</mission>

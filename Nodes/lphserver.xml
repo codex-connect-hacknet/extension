@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lphserver" name="LPH Dedicated Server" security="5" type="3">
+
+  <portsForCrack val="112311" />
+  <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554</ports>
+  <trace time="1" />
+  <tracker/>
+ <firewall level="7" solution="chicken" additionalTime="0.1"/>
+    <adminPass pass="itsnotchicken"/>
+
+    <encryptedFile path="home" name="myip.dec" extension=".txt" ip="135.166.230.66" header="I have alzheimer">
+I have alzheimer i have alzheimer i have alzheimer i have alzheimer. btw i have alzheimer i have alzheimer. ok so i have alzheimer</encryptedFile>
+    
+  
+
+</Computer>

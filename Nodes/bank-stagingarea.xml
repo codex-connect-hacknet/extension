@@ -1,0 +1,135 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bank-stagingarea" ip="203.87.45.123" name="bank-stagingarea" security="1" type="3">
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 25, 1433</ports>
+  <trace time="60" />
+    <firewall level="6" solution="secrettoken" additionalTime="1.0"/>
+
+<file path="home" name="db_conn.cs">
+using System;
+using System.Data.SqlClient;
+
+namespace DatabaseConnectionExample
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string connectionString = "Server=banknetserver;Database=banknetdb;User Id=admin;Password=40dccnecdc309;";
+
+            // Create a SqlConnection
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    // Open the connection
+                    connection.Open();
+                    Console.WriteLine("Connection successful!");
+
+                    // Create a SqlCommand
+                    SqlCommand command = new SqlCommand(query, connection);
+
+                    // Execute the command and process the results
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            // Example: Read columns from the result set
+                            Console.WriteLine($"{reader[0]}, {reader[1]}, {reader[2]}");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                }
+            }
+
+            Console.WriteLine("Hey fcking loser, give up on this shit");
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+</file>
+
+<file path="home" name="UpdateData.cs">
+using System;
+using System.Data.SqlClient;
+
+namespace DatabaseConnectionExample
+{
+    class UpdateData
+    {
+        static void Main(string[] args)
+        {
+            string connectionString = "Server=banknetserver;Database=banknetdb;User Id=admin;Password=40dccnecdc309;";
+            string updateQuery = "UPDATE Customers SET Balance = 2000.00 WHERE Name = 'John Doe'";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(updateQuery, connection);
+
+                try
+                {
+                    connection.Open();
+                    int rowsAffected = command.ExecuteNonQuery();
+                    Console.WriteLine($"Update successful! Rows affected: {rowsAffected}");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                }
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
+
+</file>
+
+<file path="home" name="SelectData.cs">
+using System;
+using System.Data.SqlClient;
+
+namespace DatabaseConnectionExample
+{
+    class SelectData
+    {
+        static void Main(string[] args)
+        {
+            string connectionString = "Server=banknetserver;Database=banknetdb;User Id=admin;Password=40dccnecdc309;";
+            string selectQuery = "SELECT Name, Age, Balance FROM Customers WHERE Name = 'John Doe'";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(selectQuery, connection);
+
+                try
+                {
+                    connection.Open();
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            Console.WriteLine($"Name: {reader["Name"]}, Age: {reader["Age"]}, Balance: {reader["Balance"]}");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                }
+            }
+        }
+    }
+}
+
+
+</file>
+
+</Computer>

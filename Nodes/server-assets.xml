@@ -54,6 +54,6 @@ ssh -i $KEY $USER@$HOSTNAME -p $PORT
 
 
    <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
-   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+   <file path="bin" name="SSH_Script.exe">#SSH_CRACK#</file>
    <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
 </Computer>

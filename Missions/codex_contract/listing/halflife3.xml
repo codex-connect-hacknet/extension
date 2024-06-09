@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="testContractMission3">
+  <goals>
+        <goal type="fileupload" target="Kaiden" file="halflife3-beta.exe" path="bin" destTarget="codex_contract_listing_upload" destPath="Drop/Uploads"/>
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/flagmission5.xml</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Half Life 3">
+You already know, lets get that damn game!
+  </posting>
+  <email>
+    <sender>Codex Connect Hub Services</sender>
+    <subject>Half Life 3</subject>
+    <body>Hey #PLAYERNAME#!
+There is a leak of beta realease half life 3. The objective is to get that, start scanning the website valve corporation using host command in your actual terminal.
+Connect that ip, do not forget to use arp tool.
+
+Best regards,
+Codex Connect Hub Services
+    </body>
+    <attachments>
+      <link comp="codex_contract_listing_upload" />
+      <link comp="server-codex-connect-assets" />
+      <account comp="server-codex-connect-assets" user="admin" pass="noonewillguessmypassword:D" />
+    </attachments>
+  </email>
+</mission>

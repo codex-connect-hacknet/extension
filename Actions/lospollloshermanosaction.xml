@@ -1,0 +1,10 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <AddAsset FileName="SMTP_SCRIPT_BYPASS.exe" FileContents="#SMTP_CRACK#" TargetComp="server-codex-connect-assets" TargetFolderpath="bin" />
+    <AddAsset FileName="HTTP_POST_CHANGE.exe" FileContents="#WEB_CRACK#" TargetComp="server-codex-connect-assets" TargetFolderpath="bin" />
+    <AddAsset FileName="DECOMPILER.exe" FileContents="#DECYPHER_PROGRAM#" TargetComp="server-codex-connect-assets" TargetFolderpath="bin" />
+    <RunFunction FunctionName="setAssetServer:server-codex-connect-assets" /> 
+  </Instantly>
+
+</ConditionalActions>

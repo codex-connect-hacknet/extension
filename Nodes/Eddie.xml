@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="eddie" ip="230.237.74.165" name="Eddie" security="1" type="3">
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 25, 1433</ports>
+  <trace time="50" />
+    <firewall level="3" solution="DOG" additionalTime="0.1"/>
+    <eosDevice name="REDMI 498x" id="eddie" icon="ePhone2" passOverride="root">
+        <note>Lost files: 21.230.78.225
+https://github.com/codex-connect-hacknet/lostfiles/blob/main/ssh_conn.sh
+        </note>
+  </eosDevice>
+    <dlink target="Eddie-ThinkPad-Arch-Linux"/>
+    <dlink target="Eddie-Debian" />
+    <dlink target="Eddie-Manjaro"/>
+    <dlink target="Eddie-Ubuntu"/>
+    <dlink target="Eddie-Fedora"/>
+    <dlink target="Eddie-Kali-Linux"/>
+    <dlink target="Eddie-Parrot"/>
+    <dlink target="Eddie-Linux-Mint"/>
+</Computer>

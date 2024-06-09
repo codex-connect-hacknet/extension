@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="russtekprivatedb" ip="243.152.47.122" name="russtekprivatedb" security="1" type="3">
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 25, 1433</ports>
+  <trace time="60" />
+
+<file path="home" name="database.env">
+# Database configuration
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=my_database
+DB_USER=admin
+DB_PASS=supersecurepassword
+</file>
+<file path="home" name="token.env">
+# JWT token secret
+JWT_SECRET=asupersecrettokensecretthatissupposedtoberandom
+</file>
+<file path="home" name="api.env">
+# API keys
+API_KEY=akjfnb93urh3j4r9fn3ufb9er9fij3
+API_SECRET=89jfn39r3hf93nfn3r9fn3fn3r9fn3r9fn
+</file>
+<file path="home" name="misc.env">
+# Miscellaneous
+DEBUG=true
+SESSION_TIMEOUT=3600
+ENCRYPTION_KEY=3uf9ernf93urh3j4r9fn3ufb9er9fij3
+SMTP_SERVER=smtp.mailtrap.io
+SMTP_PORT=2525
+SMTP_USER=mailtrapuser
+SMTP_PASS=mailtrappass
+REDIS_URL=redis://localhost:6379/0
+LOG_LEVEL=debug
+</file>
+
+
+
+</Computer>

@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer ip="50.116.1.184" id="sectoolsorg" name="Sec Tools Org" icon="chip" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+  <adminPass pass="honeypot"/>
+  <variableMissionListingServer name="SECTOOLS.ORG" iconPath="sectools.png" articleFolderPath="Docs/SECTOOLS" color="173,216,230" assigner="false" public="true" title="Sec Tools Org"/>
+
+  
+</Computer>

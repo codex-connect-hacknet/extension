@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="testContractMission1">
+  <goals>
+      <goal type="filechange" target="banknetserver" file="withdraw.js" path="home" keyword="0"/>
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/flagmission1.xml</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Codex Connect Hub Services</sender>
+    <subject>Bank.NET Bug(1)</subject>
+    <body>Not going to lie, it's rare to see someone obtaining database connection information so easily.
+
+We found a dark web forum discussing a vulnerability that allows them to exploit the system to withdraw any amount of money they want. They mentioned it's a frontend problem where they can manipulate the input of the withdrawal amount, enabling them to withdraw more money than their account holds.
+
+I will send you an attachment related to the bank net server. There is also a GitHub repository that addresses various issues. Please help me find the issue related to input manipulation and modify the code using the replace command to fix the vulnerability.
+Best regards,
+Codex Connect Hub Services
+    </body>
+    <attachments>
+      <link comp="banknetserver" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="gusfring" ip="135.166.230.66" name="Gus Fring Laptop" icon="laptop" security="1" type="empty">
+
+  <portsForCrack val="1" />
+  <ports>21, 22, 25, 80, 1433, 554</ports>
+  <trace time="13" />
+  <tracker/>
+</Computer>

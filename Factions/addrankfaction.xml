@@ -1,0 +1,6 @@
+<CustomFaction name="Add rank Faction" id="addrankfaction" playerVal="0">
+  
+  <Action ValueRequired="1">
+  </Action>
+
+</CustomFaction>

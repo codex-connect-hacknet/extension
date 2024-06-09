@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="codex_contract_listing_upload" name="Codex Connect Uploads" type="3">
+
+  <portsForCrack val="90" />
+  <ports>22, 21, 25, 80</ports>
+  <trace time="-1" />  
+  <uploadServerDaemon name="Codex Connect Uploads" folder="Drop" needsAuth="false" color="204,116,212"/>
+</Computer>

@@ -1,25 +1,25 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="startingMission">
   <goals>
-    <goal type="filedownload" target="server-codex-connect-assets" file="SSHCrack.exe" path="bin"/>
-    <goal type="filedownload" target="server-codex-connect-assets" file="SQLBufferOverflow.exe" path="bin"/>
+    <goal type="getstring" target="fitwnesswupserwver" />
   </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <nextMission>Missions/SecondMission.xml</nextMission>
+  <nextMission>Missions/ThirdMission.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
     <sender>Guido Rossum</sender>
-    <subject>#</subject>
-    <body>#
+    <subject>Gym Memberhip</subject>
+    <body>Ok so let's see how far good you are. So there is a friend of mine that wanted a gym membership for free forever without paying.
+But firstly, you need to find out the password to get into the database of that gym. Reply this email with the password.
 </body>
     <attachments>
-      <!-- Add attachments like links and notes here -->
+      <link comp="fitness-up" />
     </attachments>
   </email>
 </mission>

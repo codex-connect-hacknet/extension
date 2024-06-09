@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="fitness-up-server" name="Fitness Up Server" security="1" type="3">
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 25, 1433</ports>
+  <trace time="-1" />
+    <firewall level="6" solution="fitness" additionalTime="1.0"/>
+
+<file path="home" name="dbfit.php">
+// LOCATED IN THIS IP: 203.120.56.78
+
+$servername = "fitness-up-server";
+$username = "admin";
+$password = "fitwnesswupserwver";
+$dbname = "fitnessup";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if (connect_error) {
+    die("Connection failed: " . connect_error);
+}
+echo "Connected successfully";
+
+
+</file>
+
+</Computer>

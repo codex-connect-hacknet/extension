@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="russteksetdb" ip="160.233.49.119" name="russteksetdb" security="1" type="3">
+
+  <portsForCrack val="20" />
+  <ports>22, 21, 25, 1433</ports>
+  <trace time="60" />
+  <account username="alexei" password="smirnov" type="0" />
+<file path="home" name="readme.txt">https://github.com/codex-connect-hacknet/ipmorserusstek/blob/main/ip.morse</file>
+
+
+</Computer>

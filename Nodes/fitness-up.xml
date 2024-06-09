@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="fitness-up" name="Fitness Up" type="empty">
+
+  <portsForCrack val="1" />
+  <ports>22, 21, 25</ports>
+  <dlink target="fitness-up-server" />
+  <file path="home" name="firewall.txt">Firewall solution: fitness</file>
+</Computer>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="banknetserver" ip="45.55.54.249" name="Bank.NET Server" security="2" type="3">
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 25, 1433</ports>
+  <trace time="-1" />
+    <firewall level="6" solution="secrettoken" additionalTime="1.0"/>
+
+<file path="home" name="withdraw.js">
+
+function validateInput() {
+    var username = document.getElementById('username').value;
+    var regex = /^[a-zA-Z0-9]+$/;
+    if (!regex.test(username)) {
+        alert('Invalid username. Only alphanumeric characters are allowed.');
+        return false;
+    }
+     return true;
+}
+  
+</file>
+<file path="home" name="githubissue.txt">
+https://github.com/codex-connect-hacknet/banknetserver/issues/1
+  
+</file>
+
+
+</Computer>

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="finalmission01">
+  <goals>
+  <goal type="getstring" target="2099716820_DOMAIN_COM-VRSN"/>
+  </goals>
+
+  <nextMission>Missions\codex_contract\pollos\step01.xml</nextMission>
+  <posting title="Los Pollos Hermanos" reqs="mission1, mission2, mission3, mission4, mission5, mission6">
+Los Pollos Hermanos is a fictional fast food restaurant chain specializing in chicken. There is some rumors that is the front organization for Gus Fring's methamphetamine manufacturing and distribution operation. TAKE IT DOWN!
+  </posting>
+  <email>
+    <sender>Codex Connect Hub Services</sender>
+    <subject>Los Pollos Hermanos</subject>
+    <body>Hey #PLAYERNAME#!
+Please analyze this
+http://www.lphishiring.com/
+    </body>
+    <attachments>
+    <note title="Objective">Use whois and reply with registry domain id
+</note>
+    </attachments>
+  </email>
+</mission>

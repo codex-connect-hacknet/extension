@@ -1,22 +1,49 @@
-Errors Found. Writing report to Extensions/Codex Connext/report.txt
+Errors Found. Writing report to Extensions/codex_connect/report.txt
 
 Load Error:
-System.NullReferenceException 
+System.FormatException 
  
-Faction introfacnot found for setFaction action! 
+COMPUTER LOAD ERROR:
+Error loading computer "Extensions/codex_connect/Nodes/RussTekMail.xml" 
+Error: NullReferenceException - User RussTekMail has no valid mail account on this mail
+server :RussTekMail. Check account type and name matching!
  
 Source : Hacknet 
  
-System.NullReferenceException: Faction introfacnot found for setFaction action!
-  at Hacknet.MissionFunctions.runCommand (Int32 value, System.String name) [0x00000] in
+System.FormatException: COMPUTER LOAD ERROR:
+Error loading computer "Extensions/codex_connect/Nodes/RussTekMail.xml" 
+Error: NullReferenceException - User RussTekMail has no valid mail account on this mail
+server :RussTekMail. Check account type and name matching! --->
+System.NullReferenceException: User RussTekMail has no valid mail account on this mail
+server :RussTekMail. Check account type and name matching!
+
+  at Hacknet.MailServer.addMail (System.String mail, System.String userTo) [0x00000] in
   <filename unknown>:0
 
-  at Hacknet.SARunFunction.Trigger (System.Object os_obj) [0x00000] in <filename unknown>:0 
-  at Hacknet.RunnableConditionalActions.Update (Single dt, System.Object os) [0x00000] in
-  <filename unknown>:0
+  at Hacknet.ComputerLoader+<>c__DisplayClassc.<loadComputer>b__3 () [0x00000] in <filename
+  unknown>:0
 
-  at Hacknet.RunnableConditionalActions.LoadIntoOS (System.String filepath, System.Object
-  OSobj) [0x00000] in <filename unknown>:0
+  at (wrapper delegate-invoke) <Module>:invoke_void__this__ ()
+  at (wrapper delegate-invoke) <Module>:invoke_void__this__ ()
+  at (wrapper delegate-invoke) <Module>:invoke_void__this__ ()
+  at (wrapper delegate-invoke) <Module>:invoke_void__this__ ()
+  at Hacknet.MailServer.initFiles () [0x00000] in <filename unknown>:0 
+  at Hacknet.Computer.initDaemons () [0x00000] in <filename unknown>:0 
+  at Hacknet.ComputerLoader.loadComputer (System.String filename, Boolean
+  preventAddingToNetmap, Boolean preventInitDaemons) [0x00000] in <filename unknown>:0
+
+  at Hacknet.Computer.loadFromFile (System.String filename) [0x00000] in <filename unknown>:0
+  
+
+  at Hacknet.Extensions.ExtensionLoader+<>c__DisplayClass2.<LoadNewExtensionSession>b__0
+  (System.String filename) [0x00000] in <filename unknown>:0
+
+  --- End of inner exception stack trace ---
+  at Hacknet.Extensions.ExtensionLoader+<>c__DisplayClass2.<LoadNewExtensionSession>b__0
+  (System.String filename) [0x00000] in <filename unknown>:0
+
+  at Hacknet.Utils.ActOnAllFilesRevursivley (System.String foldername, System.Action`1
+  FileAction) [0x00000] in <filename unknown>:0
 
   at Hacknet.Extensions.ExtensionLoader.LoadNewExtensionSession
   (Hacknet.Extensions.ExtensionInfo info, System.Object os_obj) [0x00000] in <filename
@@ -35,17 +62,75 @@ System.NullReferenceException: Faction introfacnot found for setFaction action!
   at Hacknet.Misc.ExtensionTests.TestExtensionForRuntime (Hacknet.ScreenManager screenMan,
   System.String path, System.Int32& errorsAdded) [0x00000] in <filename unknown>:0
  
+Inner : --------------- 
+ 
+System.NullReferenceException  
+      
+    User RussTekMail has no valid mail account on this mail server :RussTekMail. Check account 
+    type and name matching! 
+      
+    Source : Hacknet  
+      
+    System.NullReferenceException: User RussTekMail has no valid mail account on this mail 
+    server :RussTekMail. Check account type and name matching! 
+     
+      at Hacknet.MailServer.addMail (System.String mail, System.String userTo) [0x00000] in 
+      <filename unknown>:0 
+     
+      at Hacknet.ComputerLoader+<>c__DisplayClassc.<loadComputer>b__3 () [0x00000] in <filename
+
+      unknown>:0 
+     
+      at (wrapper delegate-invoke) <Module>:invoke_void__this__ () 
+      at (wrapper delegate-invoke) <Module>:invoke_void__this__ () 
+      at (wrapper delegate-invoke) <Module>:invoke_void__this__ () 
+      at (wrapper delegate-invoke) <Module>:invoke_void__this__ () 
+      at Hacknet.MailServer.initFiles () [0x00000] in <filename unknown>:0  
+      at Hacknet.Computer.initDaemons () [0x00000] in <filename unknown>:0  
+      at Hacknet.ComputerLoader.loadComputer (System.String filename, Boolean 
+      preventAddingToNetmap, Boolean preventInitDaemons) [0x00000] in <filename unknown>:0 
+     
+      at Hacknet.Computer.loadFromFile (System.String filename) [0x00000] in <filename unknown>:0
+      
+       
+     
+      at Hacknet.Extensions.ExtensionLoader+<>c__DisplayClass2.<LoadNewExtensionSession>b__0
+
+      (System.String filename) [0x00000] in <filename unknown>:0 
+      
+      
+      
+      at Hacknet.MailServer.addMail (System.String mail, System.String userTo) [0x00000] in 
+      <filename unknown>:0 
+     
+      at Hacknet.ComputerLoader+<>c__DisplayClassc.<loadComputer>b__3 () [0x00000] in <filename
+
+      unknown>:0 
+     
+      at (wrapper delegate-invoke) <Module>:invoke_void__this__ () 
+      at (wrapper delegate-invoke) <Module>:invoke_void__this__ () 
+      at (wrapper delegate-invoke) <Module>:invoke_void__this__ () 
+      at (wrapper delegate-invoke) <Module>:invoke_void__this__ () 
+      at Hacknet.MailServer.initFiles () [0x00000] in <filename unknown>:0  
+      at Hacknet.Computer.initDaemons () [0x00000] in <filename unknown>:0  
+      at Hacknet.ComputerLoader.loadComputer (System.String filename, Boolean 
+      preventAddingToNetmap, Boolean preventInitDaemons) [0x00000] in <filename unknown>:0 
+     
+      at Hacknet.Computer.loadFromFile (System.String filename) [0x00000] in <filename unknown>:0
+      
+       
+     
+      at Hacknet.Extensions.ExtensionLoader+<>c__DisplayClass2.<LoadNewExtensionSession>b__0
+
+      (System.String filename) [0x00000] in <filename unknown>:0 
  
  
-  at Hacknet.MissionFunctions.runCommand (Int32 value, System.String name) [0x00000] in
-  <filename unknown>:0
+ 
+  at Hacknet.Extensions.ExtensionLoader+<>c__DisplayClass2.<LoadNewExtensionSession>b__0
+  (System.String filename) [0x00000] in <filename unknown>:0
 
-  at Hacknet.SARunFunction.Trigger (System.Object os_obj) [0x00000] in <filename unknown>:0 
-  at Hacknet.RunnableConditionalActions.Update (Single dt, System.Object os) [0x00000] in
-  <filename unknown>:0
-
-  at Hacknet.RunnableConditionalActions.LoadIntoOS (System.String filepath, System.Object
-  OSobj) [0x00000] in <filename unknown>:0
+  at Hacknet.Utils.ActOnAllFilesRevursivley (System.String foldername, System.Action`1
+  FileAction) [0x00000] in <filename unknown>:0
 
   at Hacknet.Extensions.ExtensionLoader.LoadNewExtensionSession
   (Hacknet.Extensions.ExtensionInfo info, System.Object os_obj) [0x00000] in <filename

@@ -19,5 +19,9 @@
 <dlink target="Lopez@twix08" />
 <dlink target="Jack@twix09" />
 <dlink target="Pablo@twix10" />
+<addWebServer name="Twix"
+                url="Web/Twix/index.html" />
 <file path="bin" name="SMTP_Checker.exe">#SMTP_CRACK#</file>
+<file path="home" name="readme.txt">Michael.... GO CHECK THAT GUY</file>
+<customthemefile path="sys" name="kalired-x-server.sys" themePath="Themes/KaliRed.xml"/>
 </Computer>

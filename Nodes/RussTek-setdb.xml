@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="russteksetdb" ip="160.233.49.119" name="russteksetdb" security="1" type="3">
 
-  <portsForCrack val="20" />
+  <portsForCrack val="20421" />
   <ports>22, 21, 25, 1433</ports>
   <trace time="60" />
   <account username="alexei" password="smirnov" type="0" />

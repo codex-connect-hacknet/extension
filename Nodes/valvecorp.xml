@@ -6,12 +6,11 @@
   <trace time="-1" />
   <tracker/>
   <adminPass pass="honeypot"/>
-  <eosDevice name="Gaben's iPhone X" id="eosIntro" icon="ePhone2" empty="true" passOverride="root">
+  <eosDevice name="Gaben's iPhone X" id="valvephone" icon="ePhone2" empty="true" passOverride="root">
     <note>Leak of HALF FUCKING LIFE 3!! I stored in secret_revese_ip.txt</note>
     
     <!-- It's important to keep everything in your files organized - so let's leave some space between tags -->
     
     <file path="eos/test" name="secret_revese_ip.txt">Connect to that 23.220.157.5 but reversed :D</file>
   </eosDevice>
-  
 </Computer>

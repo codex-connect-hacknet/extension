@@ -1,10 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="codex_contract_listing" name="Codex Connect Contract Hub" type="3">
+<Computer id="codex_contract_listing" name="Codex Connect Contract Hub" security="5" type="3">
 
   <portsForCrack val="90" />
   <ports>22, 21, 25, 80</ports>
   <trace time="-1" />
 <account username="#PLAYERNAME#" password="#PLAYER_ACCOUNT_PASSWORD#" type="ALL" />
   
-  <missionHubServer groupName="Codex Connect" serviceName="Codex Connect Contract Hub" missionFolderPath="Missions/codex_contract/listing" themeColor="200,10,10" lineColor="255,80,80" backgroundColor="20,20,20" allowAbandon="false"/>
+  <missionHubServer groupName="Codex Connect" serviceName="Codex Connect Contract Hub" missionFolderPath="Missions/codex_contract/listing" themeColor="0,0,1" lineColor="0,0,1" backgroundColor="20,20,20" allowAbandon="false"/>
 </Computer>

@@ -8,7 +8,7 @@
  <firewall level="7" solution="chicken" additionalTime="0.1"/>
 
 
-  <eosDevice name="Werner Zigler Iphone 6s" id="eosIntro" icon="ePhone2" empty="true" passOverride="root">
+  <eosDevice name="Werner Zigler Iphone 6s" id="breakingbadphone" icon="ePhone2" empty="true" passOverride="root">
     <note>Me gusta mucho pollos!</note> 
     <!-- It's important to keep everything in your files organized - so let's leave some space between tags -->
     

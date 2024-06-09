@@ -3,8 +3,7 @@
 
   <portsForCrack val="3" />
   <ports>22, 21, 25</ports>
-  <trace time="-1" />
-  <adminPass pass="honeypot"/>
+  <trace time="30" />
   <variableMissionListingServer name="SECTOOLS.ORG" iconPath="sectools.png" articleFolderPath="Docs/SECTOOLS" color="173,216,230" assigner="false" public="true" title="Sec Tools Org"/>
 
   

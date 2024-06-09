@@ -8,5 +8,6 @@
    <file path="home" name="README.txt">This is a repo that contains config for the server
 Please check it out! Also, we need to implement .env file to hide the ssh key... It's urgent!
 https://github.com/codex-connect-hacknet/server-assets</file>
+<customthemefile path="sys" name="Custom_x-server.sys" themePath="Themes/ExampleTheme.xml"/>
 
 </Computer>

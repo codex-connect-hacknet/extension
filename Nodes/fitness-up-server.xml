@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="fitness-up-server" name="Fitness Up Server" security="1" type="3">
+<Computer id="fitness-up-server" name="Fitness Up Server" security="3" type="3">
 
   <portsForCrack val="2" />
   <ports>22, 21, 25, 1433</ports>

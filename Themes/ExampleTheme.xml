@@ -1,22 +1,22 @@
 <CustomTheme>
   <!-- This defines the layout of the windows. The valid choices are:
   blue, green, white, mint, greencompact, riptide, colamaeleon and riptide2 - corresponding to the themes of those colors in the base game-->
-  <themeLayoutName>mint</themeLayoutName>
+  <themeLayoutName>blue</themeLayoutName>
 
   <!-- This is a path to the background image file. It should be 1920x1080, and a .jpg or .png file.
   If this is left out, the theme will automatically generate a dynamic background for the theme-->
-  <backgroundImagePath>Themes/Backgrounds/RiptideGreen.png</backgroundImagePath>
+  <backgroundImagePath>Themes/Backgrounds/kaliblack.png</backgroundImagePath>
   
   <!-- Main Colors - these will define the main feel of the theme -->
   <!-- Color of nodes on the netmap, and many other derived colors. -->
-  <defaultHighlightColor>255,41,63</defaultHighlightColor>
-  <defaultTopBarColor>74,7,14,255</defaultTopBarColor>
+  <defaultHighlightColor>109,109,109,0.8</defaultHighlightColor>
+  <defaultTopBarColor>0, 0, 0, 1</defaultTopBarColor>
   <!-- This is used for the outlines of the module windows -->
-  <moduleColorSolidDefault>0,204,132</moduleColorSolidDefault>
-  <moduleColorStrong>14,40,25,80</moduleColorStrong>
-  <moduleColorBacking>5,7,6,10</moduleColorBacking>
+  <moduleColorSolidDefault>109,109,109,0.8</moduleColorSolidDefault>
+  <moduleColorStrong>0, 0, 0, 1</moduleColorStrong>
+  <moduleColorBacking>0, 0, 0, 1</moduleColorBacking>
 
-  <exeModuleTopBar>130,65,27,80</exeModuleTopBar>
+  <exeModuleTopBar>0, 0, 0, 1</exeModuleTopBar>
   <exeModuleTitleText>155,85,37,0</exeModuleTitleText>
 
   <!-- Extra Options -->

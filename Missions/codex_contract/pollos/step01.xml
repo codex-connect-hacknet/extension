@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="finalmission2">
+  <goals>
+  <goal type="getadmin" target="gusfring"/>
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/lospollloshermanosaction.xml</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>Missions\final_mission.xml</nextMission>
+  <email>
+    <sender>Codex Connect Hub Services</sender>
+    <subject>CEO Of Pollos Hermanos</subject>
+    <body>
+Try to get into gustavo fring personal laptop administration access.
+    </body>
+    <attachments>
+      <link comp="lospolloshermanos" />
+      <link comp="server-codex-connect-assets" />
+      <account comp="server-codex-connect-assets" user="admin" pass="noonewillguessmypassword:D" />
+    </attachments>
+  </email>
+</mission>

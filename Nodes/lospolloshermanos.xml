@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lospolloshermanos" name="Los Pollos Hermanos" security="5" type="3">
+
+  <portsForCrack val="1" />
+  <ports>80</ports>
+  <trace time="20" />
+  <tracker/>
+ <firewall level="7" solution="chicken" additionalTime="0.1"/>
+
+
+  <eosDevice name="Werner Zigler Iphone 6s" id="eosIntro" icon="ePhone2" empty="true" passOverride="root">
+    <note>Me gusta mucho pollos!</note> 
+    <!-- It's important to keep everything in your files organized - so let's leave some space between tags -->
+    
+    
+    <file path="home" name="importantnote.txt">I need to fix this incompleted build: 34.219.126.30</file>
+  </eosDevice>
+  
+</Computer>

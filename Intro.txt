@@ -1,0 +1,5 @@
+Welcome to Codex Planet!
+
+We highly recommend using a terminal and a browser.
+If you encounter any issues, please create an issue in our GitHub repository at:
+https://github.com/codex-connect-hacknet/extension/issues

@@ -15,8 +15,8 @@
   <StartingActions>Actions/StartingActions.xml</StartingActions>
 
   <!-- Description that appears within Hacknet -->
-  <Description> --- Blank Extension ---
-Edit this with your own extension info and start building!</Description>
+  <Description> --- Codex Connect ---
+Use your terminal and your browser to complete missions!</Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
   <Faction>Factions/StartingFaction.xml</Faction>
@@ -24,7 +24,7 @@ Edit this with your own extension info and start building!</Description>
   <StartsWithTutorial>False</StartsWithTutorial>
   
   <!-- this makes the extension start with the standard restart bootup sequence -->
-  <HasIntroStartup>false</HasIntroStartup>
+  <HasIntroStartup>true</HasIntroStartup>
   
   <StartingTheme>Themes/ExampleTheme.xml</StartingTheme>
   <!-- 
@@ -57,8 +57,7 @@ Edit this with your own extension info and start building!</Description>
         public string WorkshopTags;
         public string WorkshopPreviewImagePath;
   -->
-  <WorkshopDescription>This is the description of the extension that will appear in Steam Workshop and any other mod platforms this gets ported to. Max 8000 characters.
-You can use newlines in this as normal etc.</WorkshopDescription>
+  <WorkshopDescription>This extension requires the use of a terminal and real-world tools to complete missions. To get started, you will need to install a terminal emulator or a compatible environment. I recommend using Ubuntu WSL (Windows Subsystem for Linux) or Cygwin if you are running Windows. Also you need to use GIT. Enjoy your journey into the world of hacking and programming Codex Connect!</WorkshopDescription>
 
   <!-- Language that this is set to. -->
   <WorkshopLanguage>English</WorkshopLanguage>

@@ -1,0 +1,13 @@
+config playerComp tskxz 1.0 $#%#$
+connect $#%#$
+openPort 22 $#%#$
+openPort 21 $#%#$
+hideNetMap $#%#$
+hideDisplay $#%#$
+hideTerminal $#%#$
+flash $#%#$
+stopMusic $#%#$
+systakeover $#%#$
+trackseq $#%#$
+forkbomb $#%#$
+disconnect $#%#$

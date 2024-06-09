@@ -10,5 +10,5 @@
     <dlink target="johnsmith" />
     <dlink target="chrisjones " />
     <dlink target="bank-stagingarea" />
-
+  <customthemefile path="sys" name="kali-x-server.sys" themePath="Themes/Kali.xml"/>
 </Computer>

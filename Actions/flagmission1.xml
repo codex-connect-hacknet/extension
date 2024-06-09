@@ -2,6 +2,7 @@
   
   <Instantly>
     <RunFunction FunctionName="addFlags:mission1"/>
+    <RunFunction FunctionName="playCustomSong:Music/Chopper.ogg"/>
   </Instantly>
 
 </ConditionalActions>

@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="wwwvalve" ip="104.83.34.182" name="WWW Valve" security="3" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25</ports>
+  <trace time="1" />
+
+   <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <file path="bin" name="Clock.exe">#CLOCK_PROGRAM#</file>
+</Computer>

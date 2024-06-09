@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer ip="211.117.107.115" id="server-codex-connect-assets" name="Codex Connect Server" security="5" type="3">
 
-  <portsForCrack val="10" />
+  <portsForCrack val="10321" />
   <ports>22, 21, 25</ports>
   <trace time="10" />
 

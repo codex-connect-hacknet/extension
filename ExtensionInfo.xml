@@ -39,7 +39,7 @@ Edit this with your own extension info and start building!</Description>
   
   To Play your own songs, use the path to that song in your extension.
   For example, try changing the song name below to "Music/Chemical_Burns.ogg" - it'll start with that instead for new saves! -->
-  <IntroStartupSong>The_Quickening</IntroStartupSong>
+  <IntroStartupSong>Music/PulpFiction.ogg</IntroStartupSong>
 
   <!-- Sequencer stuff. You won't need this till later.-->
   <!--

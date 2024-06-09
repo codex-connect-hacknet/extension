@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+   <OnConnect target="tskxz" needsMissionComplete="false">
+
+        <LaunchHackScript Filepath="HackerScripts/Hack.txt" DelayHost="tskxz" SourceComp="tskxz" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+
+    </OnConnect>
+
+</ConditionalActions>

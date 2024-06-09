@@ -1,0 +1,79 @@
+System.IO.FileNotFoundException 
+ 
+Content/DLC/Misc/VMBootloaderTrap.dll does not exist 
+ 
+Source : mscorlib 
+ 
+System.IO.FileNotFoundException: Content/DLC/Misc/VMBootloaderTrap.dll does not exist
+File name: 'Content/DLC/Misc/VMBootloaderTrap.dll'
+  at System.IO.File.Copy (System.String sourceFileName, System.String destFileName, Boolean
+  overwrite) [0x00000] in <filename unknown>:0
+
+  at System.IO.File.Copy (System.String sourceFileName, System.String destFileName) [0x00000]
+  in <filename unknown>:0
+
+  at Hacknet.HostileHackerBreakinSequence.CopyHostileFileToLocalSystem () [0x00000] in
+  <filename unknown>:0
+
+  at Hacknet.HostileHackerBreakinSequence.Execute (System.Object osobj, Hacknet.Computer
+  source, Hacknet.Computer target) [0x00000] in <filename unknown>:0
+
+  at Hacknet.HackerScriptExecuter.executeThreadedScript (System.String[] script, Hacknet.OS
+  os) [0x00000] in <filename unknown>:0
+ 
+ 
+ 
+  at System.IO.File.Copy (System.String sourceFileName, System.String destFileName, Boolean
+  overwrite) [0x00000] in <filename unknown>:0
+
+  at System.IO.File.Copy (System.String sourceFileName, System.String destFileName) [0x00000]
+  in <filename unknown>:0
+
+  at Hacknet.HostileHackerBreakinSequence.CopyHostileFileToLocalSystem () [0x00000] in
+  <filename unknown>:0
+
+  at Hacknet.HostileHackerBreakinSequence.Execute (System.Object osobj, Hacknet.Computer
+  source, Hacknet.Computer target) [0x00000] in <filename unknown>:0
+
+  at Hacknet.HackerScriptExecuter.executeThreadedScript (System.String[] script, Hacknet.OS
+  os) [0x00000] in <filename unknown>:0--------------------------------
+
+System.IO.FileNotFoundException 
+ 
+Content/DLC/Misc/VMBootloaderTrap.dll does not exist 
+ 
+Source : mscorlib 
+ 
+System.IO.FileNotFoundException: Content/DLC/Misc/VMBootloaderTrap.dll does not exist
+File name: 'Content/DLC/Misc/VMBootloaderTrap.dll'
+  at System.IO.File.Copy (System.String sourceFileName, System.String destFileName, Boolean
+  overwrite) [0x00000] in <filename unknown>:0
+
+  at System.IO.File.Copy (System.String sourceFileName, System.String destFileName) [0x00000]
+  in <filename unknown>:0
+
+  at Hacknet.HostileHackerBreakinSequence.CopyHostileFileToLocalSystem () [0x00000] in
+  <filename unknown>:0
+
+  at Hacknet.HostileHackerBreakinSequence.Execute (System.Object osobj, Hacknet.Computer
+  source, Hacknet.Computer target) [0x00000] in <filename unknown>:0
+
+  at Hacknet.HackerScriptExecuter.executeThreadedScript (System.String[] script, Hacknet.OS
+  os) [0x00000] in <filename unknown>:0
+ 
+ 
+ 
+  at System.IO.File.Copy (System.String sourceFileName, System.String destFileName, Boolean
+  overwrite) [0x00000] in <filename unknown>:0
+
+  at System.IO.File.Copy (System.String sourceFileName, System.String destFileName) [0x00000]
+  in <filename unknown>:0
+
+  at Hacknet.HostileHackerBreakinSequence.CopyHostileFileToLocalSystem () [0x00000] in
+  <filename unknown>:0
+
+  at Hacknet.HostileHackerBreakinSequence.Execute (System.Object osobj, Hacknet.Computer
+  source, Hacknet.Computer target) [0x00000] in <filename unknown>:0
+
+  at Hacknet.HackerScriptExecuter.executeThreadedScript (System.String[] script, Hacknet.OS
+  os) [0x00000] in <filename unknown>:0

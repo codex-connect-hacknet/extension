@@ -4,5 +4,6 @@
   <portsForCrack val="2" />
   <ports>22, 21, 25, 1433</ports>
   <trace time="50" />
-
+  <adminPass pass="honeypot"/>
+  <customthemefile path="sys" name="Fedora-x-server.sys" themePath="Themes/Fedora.xml"/>
 </Computer>

@@ -4,6 +4,7 @@
   <portsForCrack val="2" />
   <ports>22, 21, 25, 1433</ports>
   <trace time="30" />
+  <adminPass pass="honeypot"/>
     <firewall level="3" solution="DOG" additionalTime="0.1"/>
     <eosDevice name="REDMI 498x" id="eddie" icon="ePhone2" passOverride="root">
         <note>Lost files: 21.230.78.225

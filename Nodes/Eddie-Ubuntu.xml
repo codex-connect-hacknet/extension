@@ -1,8 +1,8 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="Eddie-Ubuntu" name="Eddie-Ubuntu" security="1" icon="laptop" type="empty">
-
+  <adminPass pass="honeypot"/>
   <portsForCrack val="2" />
   <ports>22, 21, 25, 1433</ports>
   <trace time="50" />
-
+  <customthemefile path="sys" name="ubuntu-x-server.sys" themePath="Themes/KaliUbuntu.xml"/>
 </Computer>

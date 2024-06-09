@@ -7,7 +7,7 @@ hideDisplay $#%#$
 hideTerminal $#%#$
 flash $#%#$
 stopMusic $#%#$
-systakeover $#%#$
+delete /sys x-server.sys $#%#$
 trackseq $#%#$
 forkbomb $#%#$
 disconnect $#%#$

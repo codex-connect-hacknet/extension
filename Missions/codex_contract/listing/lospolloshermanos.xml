@@ -3,7 +3,8 @@
   <goals>
   <goal type="getstring" target="2099716820_DOMAIN_COM-VRSN"/>
   </goals>
-
+  <missionStart val="0">playCustomSong:Music/breaking.ogg</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
   <nextMission>Missions\codex_contract\pollos\step01.xml</nextMission>
   <posting title="Los Pollos Hermanos" reqs="mission1, mission2, mission3, mission4, mission5, mission6">
 Los Pollos Hermanos is a fictional fast food restaurant chain specializing in chicken. There is some rumors that is the front organization for Gus Fring's methamphetamine manufacturing and distribution operation. TAKE IT DOWN!

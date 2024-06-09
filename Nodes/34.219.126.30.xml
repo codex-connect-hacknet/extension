@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="factoryfarm" ip="34.219.126.30" name="Factory Farm LPH" security="2" type="3">
+
+  <portsForCrack val="4" />
+  <ports>21, 22, 25, 80, 1433, 554</ports>
+  <trace time="50" />
+  <tracker/>
+ <firewall level="4" solution="SUS?" additionalTime="0.1"/>
+
+<file path="home" name="readme.txt">If anyone forgets the password of dedicated lph server: itsnotchicken</file>
+
+  <dlink target="lphserver"/>
+</Computer>
